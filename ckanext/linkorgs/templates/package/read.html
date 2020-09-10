@@ -1,0 +1,9 @@
+{% ckan_extends %}
+
+{% block primary_content_inner %}
+
+{{ super() }}
+
+<iframe name="linkorgs_plugin" src="http://localhost:80/app.php?api_link={% print(h.url_for('api.action', ver=3, logic_function='package_show', id=pkg.id, _external=True)) %}"></iframe>
+
+{% endblock %}
