@@ -72,3 +72,5 @@ To install ckanext-linkorgs:
 5. Check if the plugin is working.
 
 6. Optional: edit ckanext-linkorgs/ckanext/linkorgs/templates/package/read.html to fit your design needs. The standard only displays it standardly, without using additional CSS    to not interfere with the CKAN template.
+
+NOTE: the current Plugin creates an iframe that points to localhost:80/app.php, where the corresponding linkorgs-app should be present. (find here: https://github.com/N-Krenn/linkorgs-app). You can either host it yourselves or wait for a public release of a centralized service. The Plugin will be updated with the centralized services URL as soon as available.
