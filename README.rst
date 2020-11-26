@@ -40,7 +40,7 @@ Simple and easy CKAN extension to combine with https://github.com/N-Krenn/linkor
 Requirements
 ------------
 
-Working CKAN Installation; only tested with version 2.9. Only changes that could influence the compatability are in API-Link generation and content/template rendering of the datasets/packages. 
+Working CKAN Installation; only tested with version 2.8.4. Only changes that could influence the compatability are in API-Link generation and content/template rendering of the datasets/packages. 
 
 
 ------------
@@ -68,3 +68,7 @@ To install ckanext-linkorgs:
 4. Restart CKAN. For example if you've deployed CKAN with Apache on Ubuntu::
 
      sudo service apache2 reload
+     
+5. Check if the plugin is working.
+
+6. Optional: edit ckanext-linkorgs/ckanext/linkorgs/templates/package/read.html to fit your design needs. The standard only displays it standardly, without using additional CSS    to not interfere with the CKAN template.
