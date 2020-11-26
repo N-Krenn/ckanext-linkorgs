@@ -40,7 +40,7 @@ Simple and easy CKAN extension to combine with https://github.com/N-Krenn/linkor
 Requirements
 ------------
 
-Working CKAN Installation; only tested with version 2.8.4. Only changes that could influence the compatability are in API-Link generation and content/template rendering of the datasets/packages. 
+Working CKAN Installation; only tested with version 2.8.4. Only changes that could influence the compatibility are in API-Link generation and content/template rendering of the datasets/packages. 
 
 
 ------------
