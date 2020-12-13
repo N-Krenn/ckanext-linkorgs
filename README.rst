@@ -32,7 +32,7 @@
 ckanext-linkorgs
 =============
 
-Simple and easy CKAN extension to combine with https://github.com/N-Krenn/linkorgs-app
+Simple CKAN extension to combine with https://github.com/N-Krenn/linkorgs-app
 
 
 
@@ -50,6 +50,8 @@ Installation
 .. Add any additional install steps to the list below.
    For example installing any non-Python dependencies or adding any required
    config settings.
+
+Note that you can apply configuration beforehand to avoid having to change it afterwards. See step 6 and Configuration beforehand to do so.
 
 To install ckanext-linkorgs:
 
@@ -73,7 +75,7 @@ To install ckanext-linkorgs:
 
 6. Optional: edit ckanext-linkorgs/ckanext/linkorgs/templates/package/read.html to fit your design needs. The standard only displays it standardly, without using additional CSS    to not interfere with the CKAN template. Either change it before installing the Extension, or follow the steps in Configuration.
 
-NOTE: the standard Plugin creates an iframe that points to localhost:80/app.php, where the corresponding linkorgs-app should be present. (find here: https://github.com/N-Krenn/linkorgs-app). You can either host it yourselves or wait for a public release of a centralized service. The Plugin will be updated with the centralized services URL as soon as available.
+NOTE: the standard Plugin creates an iframe that points to localhost:80/app.php, where the corresponding linkorgs-app should be present. (find app here: https://github.com/N-Krenn/linkorgs-app). You can either host it yourselves or wait for a public release of a centralized service. The Plugin will be updated with the centralized services URL as soon as available.
 
 
 ------------
